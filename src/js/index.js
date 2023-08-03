@@ -1,4 +1,4 @@
-alert("ATENÇÃO! não copie o meu código, você não vai aprender, desenvolva o seu!")
+alert("E ae, blz? tenta não copiar, o desenvolvimento é pessoal, você precisa aprender ;) qualquer dúvida: luandevweb@gmail.com")
 function Pega(){
 
     var nome = document.getElementById("nome").value
