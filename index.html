@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+
+    <h1 class="title">FORMULÁRIO:</h1>
+    <span class="principais">Nome:</span><br>
+    <input type="text" id="nome" placeholder="Ex: Luan"><br>
+    <span class="principais">Sobrenome:</span><br>
+    <input type="text" id="sobrenome" placeholder="DevWeb"><br><br>
+
+    <span class="principais">Linguagem de preferência:</span><br>  <br>
+    <input type="radio" name="linguagem" id="java"> Java<br>  <br>
+
+    <input type="radio" name="linguagem" id="csharp" >C#<br>  <br>
+
+    <input type="radio" name="linguagem" id="php">PHP<br><br>
+
+  <span class="principais"> Selecione as opções:</span><br>  <br>
+
+    <input type="radio" name="esporte" id="jogar-bola" class="esporte"> Gosto de jogar bola<br>  <br>
+
+    <input type="radio" name="esporte" id="andar-bike"> Gosto de andar de bike<br>  <br>
+
+    <input type="radio" name="esporte" id="correr"> Gosto de correr<br><br>
+
+    <span class="principais">  Bebida Preferida:</span><br>
+  <br>
+
+    <select name="bebida" id="bebida">
+        <option value="Água">ÁGUA</option>
+        <option value="Cerveja">CERVEJA</option>
+        <option value="Cana">CANA</option>
+        <option value="Vodka">VODKA</option>
+
+    </select><br><br>
+
+    
+    <button onclick="Pega()">Pegar os valores</button><br><br>
+
+    <div id="showhere">Aqui irão aparecer os resultados:<br><br>
+    <img id="hacker-img" src="./src/img/hacker.png"></div>
+<script src="./src/js/index.js"></script>
+</body>
+</html>
